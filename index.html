@@ -9,3 +9,36 @@
     
 </body>
 </html>
+<script>
+
+    
+
+    // arrow of path or arrow funcition
+    let name =()=>{
+        console.log('slim');
+    }
+
+    name('teslim')
+
+    // Object Oriented Programing
+    // we can't use regular function to create an object
+    // Object literal
+    // regular function
+    function Human(){
+        this.name="Adam";
+        this.sex='Male';
+        this.legs=2
+
+        // methods
+        this.canWalk = function(){
+            return this.legs==2;
+        }
+    }
+
+    let eve = new Human()
+        eve.name="EVE";
+        eve.sex='Female';
+        eve.legs=1;
+
+        console.log(eve.canWalk());
+</script>
